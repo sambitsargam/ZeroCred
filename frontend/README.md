@@ -10,7 +10,7 @@ Built with **React**, **TailwindCSS**, and **MetaMask SDK**, it allows users to:
 - Recalculate score
 - Mint & view SBT badges
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -23,7 +23,7 @@ Built with **React**, **TailwindCSS**, and **MetaMask SDK**, it allows users to:
 | ethers.js | Web3 contract calls (read-only) |
 | vite or react-scripts | Dev server & bundling |
 
----
+
 
 ## 🚀 Setup Instructions
 
@@ -35,7 +35,7 @@ npm start
 
 Runs the app at: [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ## ⚙️ Features
 
@@ -49,7 +49,7 @@ Runs the app at: [http://localhost:3000](http://localhost:3000)
   - 🥇 Gold (700–799)
   - 💎 Diamond (800+)
 
----
+
 
 ## 🧬 File Structure
 
@@ -68,7 +68,7 @@ frontend/
 └── package.json         # Project metadata and deps
 ```
 
----
+
 
 ## 📦 Environment Variables (Optional)
 
@@ -78,7 +78,7 @@ REACT_APP_BACKEND_URL=http://localhost:4000
 REACT_APP_CHAIN_ID=11155111  # Sepolia
 ```
 
----
+
 
 ## 🔗 Interactions
 
@@ -90,7 +90,7 @@ REACT_APP_CHAIN_ID=11155111  # Sepolia
 | "Recalculate Score" | `/score/update` | Requires verified status |
 | View Badge | Score logic | UI badge changes by score |
 
----
+
 
 ## ✨ Enhancements
 
@@ -99,7 +99,6 @@ REACT_APP_CHAIN_ID=11155111  # Sepolia
 - 💬 Add toast notifications
 - 🔁 Support multiple chains with LI.FI SDK
 
----
 
 ## 🧾 License
 
