@@ -1,2 +1,3 @@
-# ZeroCred
-ZeroCred is a privacy-preserving decentralized credit score protocol built for the Web3 ecosystem.
+# ZeroCred MVP
+
+Full-stack decentralized credit scoring protocol.

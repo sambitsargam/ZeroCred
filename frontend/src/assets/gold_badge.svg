@@ -1,0 +1,5 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="gold" stroke="black" stroke-width="5"/>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="20" font-family="Arial" fill="black">🥇</text>
+</svg>

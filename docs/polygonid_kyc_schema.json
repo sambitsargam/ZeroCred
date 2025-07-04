@@ -1,0 +1,21 @@
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "KYCCredential",
+  "description": "Verifiable credential for KYC verification using Polygon ID",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "KYC_verified": { "type": "boolean" }
+      },
+      "required": ["KYC_verified"]
+    },
+    "issuer": { "type": "string" },
+    "issuanceDate": { "type": "string", "format": "date-time" },
+    "expirationDate": { "type": "string", "format": "date-time" }
+  },
+  "required": ["id", "credentialSubject", "issuer", "issuanceDate"]
+}
